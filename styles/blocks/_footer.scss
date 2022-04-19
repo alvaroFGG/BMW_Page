@@ -1,0 +1,23 @@
+footer{
+    width: 100vw;
+    height: 10vh;
+    font-family: "Ubuntu";
+    .max-width{
+        width: 100vw;
+        height: 10vh;
+        @include flexCenter(row, space-around, center);
+
+        h4{
+            color: #939393
+        }
+
+        .advise{
+            ul{
+                @include flexCenter(row,space-around,null);
+                li{
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+}

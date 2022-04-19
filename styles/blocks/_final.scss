@@ -1,0 +1,25 @@
+.final{
+    width: 100vw;
+    height: 55vh;
+    @include flexCenter(row,center,null);
+    background-color: #d6d6d6;
+    margin-top: 50px;
+    font-family: "Ubuntu";
+    font-size: 0.9rem;
+    .max-width{
+        width: 100vw;
+        margin-top: 40px;
+        @include flexCenter(row, space-evenly, null);
+
+        h4{
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+        }
+
+        li{
+            margin-bottom: 10px;
+        }
+    }
+
+
+}

@@ -5,6 +5,18 @@
     font-family: "Ubuntu";
     position: fixed;
     width: 100%;
+    transition: all 0.5s ease;
+
+    &.sticky{
+        background-color: white;
+        a{
+            color: black;
+        }
+
+        .icons i{
+            color: black;
+        }
+    }
 
     ul{
         @include flexCenter(row, space-around, center);

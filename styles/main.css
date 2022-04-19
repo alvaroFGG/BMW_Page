@@ -17,6 +17,20 @@
   font-family: "Ubuntu";
   position: fixed;
   width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar.sticky {
+  background-color: white;
+}
+
+.navbar.sticky a {
+  color: black;
+}
+
+.navbar.sticky .icons i {
+  color: black;
 }
 
 .navbar ul {
@@ -175,5 +189,201 @@
 
 .series .max-width .autos .row2 img {
   width: 65%;
+}
+
+.cards {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Ubuntu";
+}
+
+.cards .max-width {
+  width: 60vw;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards .max-width h4 {
+  font-size: 1.6rem;
+}
+
+.cards .max-width div {
+  margin-right: 20px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.cards .max-width img {
+  width: 100%;
+}
+
+.cards .max-width .card1 img {
+  height: 90px;
+}
+
+.cards .max-width .link {
+  font-weight: bolder;
+  margin-top: 13px;
+}
+
+.videos {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Ubuntu";
+}
+
+.videos .max-width {
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 100px;
+}
+
+.videos .max-width img {
+  width: 100%;
+}
+
+.videos .max-width h4 {
+  font-size: 1.6rem;
+}
+
+.videos .max-width .link {
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.videos .max-width .video1 {
+  width: auto;
+  margin-right: 30px;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.videos .max-width .video2 {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.options {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+}
+
+.options .max-width {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 280px 280px 280px 280px;
+      grid-template-columns: 280px 280px 280px 280px;
+  gap: 20px;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.options .max-width div {
+  text-align: center;
+  background-color: #d6d6d6;
+  padding: 20px 50px;
+}
+
+.options .max-width div i {
+  margin-bottom: 16px;
+}
+
+.final {
+  width: 100vw;
+  height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #d6d6d6;
+  margin-top: 50px;
+  font-family: "Ubuntu";
+  font-size: 0.9rem;
+}
+
+.final .max-width {
+  width: 100vw;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.final .max-width h4 {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+}
+
+.final .max-width li {
+  margin-bottom: 10px;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  font-family: "Ubuntu";
+}
+
+footer .max-width {
+  width: 100vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .max-width h4 {
+  color: #939393;
+}
+
+footer .max-width .advise ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .max-width .advise ul li {
+  margin-right: 20px;
 }
 /*# sourceMappingURL=main.css.map */

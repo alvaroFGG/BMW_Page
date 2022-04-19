@@ -1,0 +1,23 @@
+.options{
+    width: 100vw;
+    @include flexCenter(row,center,null);
+    margin-top: 100px;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    .max-width{
+        display: grid;
+        grid-template-columns: 280px 280px 280px 280px;
+        gap: 20px;
+        width: 100vw;
+        justify-content: center;
+
+        div{
+            text-align: center;
+            background-color: #d6d6d6;
+            padding: 20px 50px;
+            i{
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
