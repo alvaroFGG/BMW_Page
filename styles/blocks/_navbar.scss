@@ -1,0 +1,33 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Ubuntu";
+    position: fixed;
+    width: 100%;
+
+    ul{
+        @include flexCenter(row, space-around, center);
+        li{
+            margin-right: 60px;
+
+            a{
+                color: white;
+                font-size: 1.2rem;
+            }
+        }
+    };
+
+    .icons{
+        @include flexCenter(row, space-between, center);
+        i{
+            color: white;
+        }
+        img{
+            margin-top: 10px;
+            width: 30%;
+        }
+    }
+}
+
+
