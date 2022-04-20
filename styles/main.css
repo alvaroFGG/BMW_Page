@@ -70,12 +70,11 @@
 }
 
 .navbar .icons img {
-  margin-top: 10px;
   width: 30%;
 }
 
 .home {
-  background: url("/assets/img/background.jpg") no-repeat center;
+  background: url("/assets/img/background.jpg") no-repeat center top;
   width: 100vw;
   height: 80vh;
   display: -webkit-box;
@@ -92,7 +91,7 @@
 }
 
 .home .content {
-  margin: auto 0 auto 100px;
+  margin: auto 0 auto 200px;
   color: white;
   font-family: "Ubuntu";
   font-size: 1.5rem;
@@ -188,7 +187,7 @@
 }
 
 .series .max-width .autos .row2 img {
-  width: 65%;
+  width: 85%;
 }
 
 .cards {
@@ -203,14 +202,16 @@
 }
 
 .cards .max-width {
-  width: 60vw;
+  width: 30vw;
   margin-top: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: 290px 290px 290px 290px;
+      grid-template-columns: 290px 290px 290px 290px;
+  row-gap: 20px;
 }
 
 .cards .max-width h4 {
@@ -225,10 +226,6 @@
 
 .cards .max-width img {
   width: 100%;
-}
-
-.cards .max-width .card1 img {
-  height: 90px;
 }
 
 .cards .max-width .link {
@@ -271,10 +268,14 @@
 }
 
 .videos .max-width .video1 {
-  width: auto;
   margin-right: 30px;
   border: 1px solid #e0e0e0;
   padding: 10px;
+}
+
+.videos .max-width .video1 img {
+  width: 400px;
+  height: 220px;
 }
 
 .videos .max-width .video2 {

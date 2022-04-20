@@ -4,11 +4,12 @@
     justify-content: center;
     font-family: "Ubuntu";
     .max-width{
-        width: 60vw;
+        width: 30vw;
         margin-top: 150px;
-        display: flex;
-        justify-content: space-between;
-
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 290px 290px 290px 290px;
+        row-gap: 20px;
         h4{
             font-size: 1.6rem;
         }
@@ -21,12 +22,6 @@
 
         img{
             width: 100%;
-        }
-
-        .card1{
-           img{
-               height: 90px;
-            }
         }
 
         .link{
